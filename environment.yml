@@ -1,0 +1,13 @@
+name: sqlserver_sqlmagic
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - sqlalchemy
+    - pandas
+    - matplotlib
+    - numpy
+    - pyodbc
+    - ipython-sql
